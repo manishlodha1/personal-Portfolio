@@ -69,7 +69,10 @@ export const projects = [
     {
         id: 'project5',
         title: 'Weather App',
-        description: ['A brief description of Project One, highlighting key features and purpose.'],
+        description: [
+          'Implemented a pizza ordering system allowing users to add items to their cart, adjust quantities, and track their selections.',
+          'Developed a seamless checkout process enabling users to place orders by filling out a form with contact details and address, with an option for geolocation.'
+        ],
         demoUrl: 'https://react-web-library-frontend.vercel.app/',
         image: 'https://t4.ftcdn.net/jpg/05/08/98/67/360_F_508986756_0XhjoYQFdje5lEmmHNXgl1pqneVgjpwe.jpg',   
         // image: 'https://media.istockphoto.com/id/626669886/photo/blogging-blog-word-coder-coding-using-laptop.jpg?s=612x612&w=0&k=20&c=gX9o-kj9RohNBAT2n4wR6fldiTdvnpxZOsetFonpBJw=',      // Place a demo image in public/images
