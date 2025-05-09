@@ -42,7 +42,7 @@ export default function Intro() {
       <div className="md:w-1/2 mt-10 md:mt-0 flex justify-center">
         <div className="rounded-full p-1 bg-gradient-to-tr from-cyan-500 to-pink-500">
           <img
-            src="/phtot"
+            src=""
             alt="profile"
             className="w-60 h-60 rounded-full object-cover border-4 border-slate-900"
           />
