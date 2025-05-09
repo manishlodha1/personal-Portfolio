@@ -7,10 +7,10 @@ export default function Intro() {
   return (
     <section id='home' className="bg-gradient-to-br from-slate-900 to-black text-white relative min-h-screen flex flex-col md:flex-row justify-center items-center px-10 pt-24">
       <div className="md:w-1/2 space-y-4">
-        <h2 className="text-lg">Hello, It's Me</h2>
+        <h2 className="text-lg">{`Hello, It's Me`}</h2>
         <h1 className="text-4xl font-bold">Manish</h1>
         <h3 className="text-2xl">
-          And I'm a{' '}
+          And I&apos;m a{' '}
           <span className="text-cyan-400">
             <Typewriter
               words={['Frontend Developer', 'Freelancer', 'Web Developer']}
@@ -24,7 +24,7 @@ export default function Intro() {
           </span>
         </h3>
         <p className="text-sm text-gray-300">
-          I'm a passionate web developer with hands-on experience in building modern, responsive websites. I’ve worked as a frontend development and currently freelance for small businesses and personal brands. My focus is on clean design, user-friendly interfaces, and bringing ideas to life on the web.
+          {`I'm a passionate web developer with hands-on experience in building modern, responsive websites. I’ve worked as a frontend development and currently freelance for small businesses and personal brands. My focus is on clean design, user-friendly interfaces, and bringing ideas to life on the web.`}
         </p>
         <div className="flex space-x-4 mt-4">
           <a href="https://github.com/manishlodha1" target="_blank" rel="noopener noreferrer">
